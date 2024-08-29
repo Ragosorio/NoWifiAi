@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descargar</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100dvh;
+            background: #0a0a0a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+        span{
+            text-decoration: underline;
+        }
+    </style>
+    <script type="module">
+        document.addEventListener('DOMContentLoaded', () => {
+            const link = document.getElementById("link")
+            link.click();
+        });
+    </script>
+</head>
+<body>
+    <a id="link" href="./chat.html" download="./chat.html">Descarga la IA sin internet <span>acá</span></a>
+</body>
+</html>
